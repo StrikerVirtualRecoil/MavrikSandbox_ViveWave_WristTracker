@@ -1,0 +1,481 @@
+{
+  "effects": [
+    {
+      "effect_id": "73_bpm_Eb_octave_arp",
+      "tracks": [
+        {
+          "deviceId": "fosters",
+          "sequence": [
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "73_Bpm_Eb_Oct_Arp",
+              "factor_intensity": [],
+              "factor_frequency": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect_id": "73_bpm_Gb_octave_arp",
+      "tracks": [
+        {
+          "deviceId": "fosters",
+          "sequence": [
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "73_Bpm_Gb_Oct_Arp 1",
+              "factor_intensity": [],
+              "factor_frequency": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect_id": "wub",
+      "tracks": [
+        {
+          "deviceId": "fosters",
+          "sequence": [
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "modulated_buzz",
+              "factor_intensity": [],
+              "factor_frequency": []
+            }
+          ]
+        },
+        {
+          "deviceId": "hammerTop",
+          "sequence": [
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "shot_single_lite",
+              "factor_intensity": [],
+              "factor_frequency": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect_id": "high_wub",
+      "tracks": [
+        {
+          "deviceId": "fosters",
+          "sequence": [
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "modulated_buzz 1",
+              "factor_intensity": [],
+              "factor_frequency": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect_id": "Eb 4",
+      "tracks": [
+        {
+          "deviceId": "fosters",
+          "sequence": [
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "E-flat_Eb4",
+              "factor_intensity": [],
+              "factor_frequency": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect_id": "Gb 4",
+      "tracks": [
+        {
+          "deviceId": "fosters",
+          "sequence": [
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "E-flat_Gb4",
+              "factor_intensity": [],
+              "factor_frequency": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect_id": "Bb 4",
+      "tracks": [
+        {
+          "deviceId": "fosters",
+          "sequence": [
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "E-flat_Bb4",
+              "factor_intensity": [],
+              "factor_frequency": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "samples_palette": [
+    {
+      "sample_id": "73_Bpm_Eb_Oct_Arp",
+      "sequence": [
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 156,
+          "duration_base": 103
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 311,
+          "duration_base": 103
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 467,
+          "duration_base": 103
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 622,
+          "duration_base": 103
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 467,
+          "duration_base": 103
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 311,
+          "duration_base": 103
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 156,
+          "duration_base": 103
+        }
+      ]
+    },
+    {
+      "sample_id": "73_Bpm_Gb_Oct_Arp 1",
+      "sequence": [
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 185,
+          "duration_base": 103
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 370,
+          "duration_base": 103
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 555,
+          "duration_base": 103
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 740,
+          "duration_base": 103
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 555,
+          "duration_base": 103
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 370,
+          "duration_base": 103
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 185,
+          "duration_base": 103
+        }
+      ]
+    },
+    {
+      "sample_id": "modulated_buzz",
+      "sequence": [
+        {
+          "command": "vibrate",
+          "intensity": 0.1,
+          "frequency": 120,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.1,
+          "frequency": 117,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.2,
+          "frequency": 115,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.2,
+          "frequency": 112,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.3,
+          "frequency": 110,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.3,
+          "frequency": 108,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.4,
+          "frequency": 105,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.5,
+          "frequency": 103,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.6,
+          "frequency": 100,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.7,
+          "frequency": 98,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.8,
+          "frequency": 95,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.9,
+          "frequency": 93,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 91,
+          "duration_base": 50
+        }
+      ]
+    },
+    {
+      "sample_id": "shot_single_lite",
+      "sequence": [
+        {
+          "command": "pulse",
+          "intensity": 0.6,
+          "frequency": -1,
+          "duration_base": 20
+        },
+        {
+          "command": "tick",
+          "intensity": 0.4,
+          "frequency": -1,
+          "duration_base": 5
+        },
+        {
+          "command": "tick",
+          "intensity": 0.4,
+          "frequency": -1,
+          "duration_base": 5
+        },
+        {
+          "command": "pause",
+          "intensity": 0.0,
+          "frequency": -1,
+          "duration_base": 15
+        },
+        {
+          "command": "pulse",
+          "intensity": 1.0,
+          "frequency": -1,
+          "duration_base": 5
+        }
+      ]
+    },
+    {
+      "sample_id": "modulated_buzz 1",
+      "sequence": [
+        {
+          "command": "vibrate",
+          "intensity": 0.1,
+          "frequency": 240,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.1,
+          "frequency": 234,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.2,
+          "frequency": 230,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.2,
+          "frequency": 224,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.3,
+          "frequency": 220,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.3,
+          "frequency": 216,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.4,
+          "frequency": 210,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.5,
+          "frequency": 206,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.6,
+          "frequency": 200,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.7,
+          "frequency": 196,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.8,
+          "frequency": 190,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 0.9,
+          "frequency": 186,
+          "duration_base": 25
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 182,
+          "duration_base": 50
+        }
+      ]
+    },
+    {
+      "sample_id": "E-flat_Eb4",
+      "sequence": [
+        {
+          "command": "vibrate",
+          "intensity": 0.1,
+          "frequency": 156,
+          "duration_base": 600
+        }
+      ]
+    },
+    {
+      "sample_id": "E-flat_Gb4",
+      "sequence": [
+        {
+          "command": "vibrate",
+          "intensity": 0.1,
+          "frequency": 185,
+          "duration_base": 600
+        }
+      ]
+    },
+    {
+      "sample_id": "E-flat_Bb4",
+      "sequence": [
+        {
+          "command": "vibrate",
+          "intensity": 0.1,
+          "frequency": 233,
+          "duration_base": 600
+        }
+      ]
+    }
+  ]
+}

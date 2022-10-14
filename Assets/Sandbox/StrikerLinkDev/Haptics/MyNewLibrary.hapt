@@ -1,0 +1,175 @@
+{
+  "effects": [
+    {
+      "effect_id": "effect_1",
+      "tracks": [
+        {
+          "deviceId": "hammerTop",
+          "sequence": [
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "sample_1",
+              "factor_intensity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "factor_frequency": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "deviceId": "hammerTop",
+          "sequence": [
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "sample_2",
+              "factor_intensity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "factor_frequency": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect_id": "effect_2",
+      "tracks": [
+        {
+          "deviceId": "hammerTop",
+          "sequence": [
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "sample_1",
+              "factor_intensity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "factor_frequency": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "sample_2",
+              "factor_intensity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "factor_frequency": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "samples_palette": [
+    {
+      "sample_id": "sample_1",
+      "sequence": [
+        {
+          "command": "tick",
+          "intensity": 1.0,
+          "frequency": -1,
+          "duration_base": 50
+        },
+        {
+          "command": "pulse",
+          "intensity": 1.0,
+          "frequency": -1,
+          "duration_base": 50
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 500,
+          "duration_base": 50
+        },
+        {
+          "command": "pulse",
+          "intensity": 1.0,
+          "frequency": -1,
+          "duration_base": 50
+        },
+        {
+          "command": "tick",
+          "intensity": 1.0,
+          "frequency": -1,
+          "duration_base": 50
+        }
+      ]
+    },
+    {
+      "sample_id": "sample_2",
+      "sequence": [
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 500,
+          "duration_base": 50
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 500,
+          "duration_base": 50
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 500,
+          "duration_base": 50
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 500,
+          "duration_base": 50
+        }
+      ]
+    }
+  ]
+}

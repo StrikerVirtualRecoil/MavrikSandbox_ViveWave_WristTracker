@@ -1,0 +1,417 @@
+{
+  "effects": [
+    {
+      "effect_id": "good_bye",
+      "tracks": [
+        {
+          "deviceId": "fosters",
+          "sequence": [
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "Good_bye",
+              "factor_intensity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "factor_frequency": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect_id": "laughing",
+      "tracks": [
+        {
+          "deviceId": "fosters",
+          "sequence": [
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "duck_hunt_laugh",
+              "factor_intensity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "factor_frequency": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "effect_id": "start_up",
+      "tracks": [
+        {
+          "deviceId": "fosterBack",
+          "sequence": [
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "E-flat_Barchord_1",
+              "factor_intensity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "factor_frequency": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        },
+        {
+          "deviceId": "fosterFront",
+          "sequence": [
+            {
+              "is_modify_intensity": false,
+              "is_modify_frequency": false,
+              "is_modify_duration": false,
+              "duration_target": 0.0,
+              "sample_id_to_play": "E-flat_Barchord_5",
+              "factor_intensity": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "factor_frequency": [
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "samples_palette": [
+    {
+      "sample_id": "Good_bye",
+      "sequence": [
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 246,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 215,
+          "duration_base": 50
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 185,
+          "duration_base": 50
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 155,
+          "duration_base": 50
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 125,
+          "duration_base": 50
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 94,
+          "duration_base": 250
+        }
+      ]
+    },
+    {
+      "sample_id": "duck_hunt_laugh",
+      "sequence": [
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 1000,
+          "duration_base": 150
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 800,
+          "duration_base": 50
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 750,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 700,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 650,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 550,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 500,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 450,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 400,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 350,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 346,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 340,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 330,
+          "duration_base": 100
+        }
+      ]
+    },
+    {
+      "sample_id": "E-flat_Barchord_1",
+      "sequence": [
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 87,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 92,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 104,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 116,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 131,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 156,
+          "duration_base": 857
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 185,
+          "duration_base": 214
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 208,
+          "duration_base": 214
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 277,
+          "duration_base": 857
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 311,
+          "duration_base": 857
+        }
+      ]
+    },
+    {
+      "sample_id": "E-flat_Barchord_5",
+      "sequence": [
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 131,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 138,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 156,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 175,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 185,
+          "duration_base": 100
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 233,
+          "duration_base": 857
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 277,
+          "duration_base": 214
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 311,
+          "duration_base": 214
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 370,
+          "duration_base": 857
+        },
+        {
+          "command": "vibrate",
+          "intensity": 1.0,
+          "frequency": 233,
+          "duration_base": 857
+        }
+      ]
+    }
+  ]
+}
