@@ -574,27 +574,34 @@ public class Blaster : MonoBehaviour
 
         if (mavrik.GetRawSensorDown(slideBar11) || mavrik.GetRawSensorDown(slideBar12))
         {
-            mavrikClassicShot = Haptics.laser_shot_1;
+            mavrikClassicShot = Haptics.laser_shot_6;
+            laser.pitch = 1;
         }
         else if (mavrik.GetRawSensorDown(slideBar9) || mavrik.GetRawSensorDown(slideBar10))
         {
-            mavrikClassicShot = Haptics.laser_shot_2;
+            mavrikClassicShot = Haptics.laser_shot_5;
+            laser.pitch = 1.1f;
         }
         else if (mavrik.GetRawSensorDown(slideBar7) || mavrik.GetRawSensorDown(slideBar8))
         {
-            mavrikClassicShot = Haptics.laser_shot_3;
+            mavrikClassicShot = Haptics.laser_shot_4;
+            laser.pitch = 1.2f;
         }
         else if (mavrik.GetRawSensorDown(slideBar5) || mavrik.GetRawSensorDown(slideBar6))
         {
-            mavrikClassicShot = Haptics.laser_shot_4;
+            mavrikClassicShot = Haptics.laser_shot_3;
+            laser.pitch = 1.3f;
+
         }
         else if (mavrik.GetRawSensorDown(slideBar3) || mavrik.GetRawSensorDown(slideBar4))
         {
-            mavrikClassicShot = Haptics.laser_shot_5;
+            mavrikClassicShot = Haptics.laser_shot_2;
+            laser.pitch = 1.4f;
         }
         else if (mavrik.GetRawSensorDown(slideBar1) || mavrik.GetRawSensorDown(slideBar2))
         {
-            mavrikClassicShot = Haptics.laser_shot_6;
+            mavrikClassicShot = Haptics.laser_shot_1;
+            laser.pitch = 1.5f;
         }
     }
 
