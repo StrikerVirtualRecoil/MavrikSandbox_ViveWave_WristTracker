@@ -8,12 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Sandbox/Scenes/StrikerVR_Mavrik_Sandbox.unity
     guid: 49323d88d33131844b5244e80e08b5b4
   - enabled: 0
     path: Assets/Sandbox/Scenes/StrikerVR_Moonbase.unity
     guid: 3eeabe5ea195ef94b9193255cf2e3cf9
+  - enabled: 1
+    path: Assets/Sandbox/Scenes/StrikerVR_Mavrik_Sandbox.unity
+    guid: dcab75195222eeb40ba17c56b10155e4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7249544cfc1899b46a51b4d5a0317c43,
       type: 2}

@@ -4,7 +4,6 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - grappleable
   - Ring
   - UFO
   - Cow
@@ -17,6 +16,7 @@ TagManager:
   - Tennis
   - MiniBall
   - Plunger
+  - Gravitable
   layers:
   - Default
   - TransparentFX

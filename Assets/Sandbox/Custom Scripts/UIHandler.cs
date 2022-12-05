@@ -7,7 +7,8 @@ public class UIHandler : MonoBehaviour
 {
 
     public Sprite first, fullAuto, ballzooka, gravity, crossbeaux, plasma;
-    public Blaster blaster;
+    //public Blaster blaster;
+    public ModeHandler modes;
     private Image image;
     public Sprite sprite;
     // Start is called before the first frame update
@@ -17,7 +18,7 @@ public class UIHandler : MonoBehaviour
         fullAuto = Resources.Load<Sprite>("UI_Sprites/StrikerVR_Sandbox_UI_FullAuto");
         ballzooka = Resources.Load<Sprite>("UI_Sprites/StrikerVR_Sandbox_UI_Ballzooka");
         gravity = Resources.Load<Sprite>("UI_Sprites/StrikerVR_Sandbox_UI_Gravity");
-        crossbeaux = Resources.Load<Sprite>("UI_Sprites/StrikerVR_Sandbox_UI_Crossbeaux");
+        crossbeaux = Resources.Load<Sprite>("UI_Sprites/StrikerVR_Sandbox_UI_Crossbeaux_2");
         plasma = Resources.Load<Sprite>("UI_Sprites/StrikerVR_Sandbox_UI_Plasma");
 
         image = gameObject.GetComponent<Image>();
@@ -30,27 +31,28 @@ public class UIHandler : MonoBehaviour
     {
         image.sprite = sprite; 
 
-        if (blaster.fireMode == 0)
+        if (modes.fireMode == 0)
         {
             sprite = first;
         }
-        else if (blaster.fireMode == 1)
+        else if (modes.fireMode == 1)
         {
             sprite = fullAuto;
         }
-        else if (blaster.fireMode == 2)
+        else if (modes.fireMode == 2)
         {
             sprite = ballzooka;
         }
-        else if (blaster.fireMode == 3)
+        else if (modes.fireMode == 3)
+        {
+            
+            sprite = crossbeaux;
+        }
+        else if (modes.fireMode == 4)
         {
             sprite = gravity;
         }
-        else if (blaster.fireMode == 4)
-        {
-            sprite = crossbeaux;
-        }
-        else if (blaster.fireMode == 5)
+        else if (modes.fireMode == 5)
         {
             sprite = plasma;
         }

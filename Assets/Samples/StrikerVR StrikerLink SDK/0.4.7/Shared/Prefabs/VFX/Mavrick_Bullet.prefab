@@ -9723,7 +9723,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6ee568d9679843c4abd5b5ea4ea6d2a8, type: 2}
+  - {fileID: 2100000, guid: c613e3671e201ed468dd1514b1e9786b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9851,7 +9851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2330e1dc80bdb6469b09e07674c6d19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 50
+  speed: 500
   maxLifespan: 10
   explosionPrefab: {fileID: 1063761899786340631, guid: 38ba1d94d10fdeb48975593c4c853ce5,
     type: 3}
